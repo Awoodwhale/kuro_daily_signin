@@ -1,6 +1,7 @@
 import argparse
 import datetime
 import json
+import os
 import time
 
 from loguru import logger
@@ -17,7 +18,9 @@ from api import (
 )
 from login import login
 
-logger.add("kuro.log", level="INFO")
+current_dir = os.path.dirname(os.path.abspath(__file__))
+log_path = os.path.join(current_dir, "kuro.log")
+logger.add(log_path, level="INFO")
 
 
 def prepare_login(config_file_path: str, need_write_config: bool):
