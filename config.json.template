@@ -1,0 +1,13 @@
+{
+    "dingdingKey": "钉钉机器人的key",
+    "dingdingAccessToken": "钉钉机器人群聊的accessToken",
+    "users": [
+        {
+            "name": "用户名称",
+            "roleId": "库街区用户roleId",
+            "tokenraw": "登录库街区的token",
+            "userId": "鸣潮userId",
+            "devCode": "127.0.0.1, Mozilla/5.0 (iPhone; CPU iPhone OS 17_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) KuroGameBox/2.2.0"
+        }
+    ]
+}
